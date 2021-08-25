@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tictac.tictactoe3">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/tic_tac_toe"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/tic_tac_toe"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TicTacToe3">
+        <activity android:name="com.tictac.tictactoe3.PrivacyPolicy" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tictac.tictactoe3.Splash_Screen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tictac.tictactoe3.playing"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tictac.tictactoe3.train_AI"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tictac.tictactoe3.Offiline_play"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tictac.tictactoe3.computer_play"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tictac.tictactoe3.MainActivity"
+            android:screenOrientation="portrait"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/AddId" />
+    </application>
+
+</manifest>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+
+<!--    Test Adds-->
+    <string name="RewardedAdd">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="BannerAdd">	ca-app-pub-3940256099942544/6300978111</string>
+    <string name="AddId">	ca-app-pub-3940256099942544~3347511713</string>
+    <!--   Original Adds-->
+<!--    <string name="RewardedAdd">ca-app-pub-8602660372748491/5957391690</string>-->
+<!--    <string name="BannerAdd">	ca-app-pub-8602660372748491/7653616747</string>-->
+<!--    <string name="AddId">	ca-app-pub-8602660372748491~4097515112</string>-->
+</resources>
